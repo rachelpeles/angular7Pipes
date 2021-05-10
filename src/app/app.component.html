@@ -1,0 +1,13 @@
+<app-rundom-colors-arr [currentColors]=currentColors  (currentColors1)="updatecurrentColors($event)"></app-rundom-colors-arr>
+<br>
+<app-guess   (guessesColorsOut)="guessesColors($event)"></app-guess>
+<app-show-random-colors   *ngIf="flag==1" [currentColors]=currentColors></app-show-random-colors>
+<br>
+<button (click)="ifCorrect()"> נחש::</button>
+<span>הניחושים שלך:</span>
+<br>
+<span>בול {{bool |percent }}</span>
+<br>
+<span>פגיעה {{pgiaa |percent }}</span>
+<br/>
+<span>{{ bool|date}}</span>

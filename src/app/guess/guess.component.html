@@ -1,0 +1,25 @@
+<div   >
+    <button (click)="selectColor(color)" *ngFor="let color of colors;" [style.background-color]="color"  class="colors"></button>
+</div> ]
+<ul>
+    <li  *ngFor="let color of guessColors;"  [style.background]="color"  class="circale"></li>
+</ul>
+
+<button (click)="guess()" *ngIf="i==4">נחש</button>
+
+
+<!-- <select  (aaa)="($event)">
+    <option *ngFor="let color of colors;" [style.background]="color"></option>
+</select>
+
+<select >
+    <option *ngFor="let color of colors;" value="color" [style.background]="color"></option>
+</select>
+
+<select>
+    <option *ngFor="let color of colors;" [style.background]="color"></option>
+</select>
+
+<select>
+    <option *ngFor="let color of colors;" [style.background]="color"></option>
+</select> -->

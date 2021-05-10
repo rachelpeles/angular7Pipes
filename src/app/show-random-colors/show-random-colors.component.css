@@ -1,0 +1,12 @@
+.circale{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    border-color: black;
+    border-style: solid;
+}
+div{
+    text-align: center;
+}
